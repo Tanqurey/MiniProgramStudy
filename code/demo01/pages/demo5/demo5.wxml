@@ -1,0 +1,17 @@
+<!--使用自定义组件-->
+<!-- 父子组件传值 -->
+<header title="{{title}}" id="header"></header>
+<text>展示我们自定义的br标签</text>
+<br />
+<text>展示我们自定义的br标签</text>
+<br />
+<text>展示我们自定义的br标签</text>
+<br />
+
+<footer bindparent="fatherFn">
+  <text>该内容将被放在组件的slot标签中</text>
+</footer>
+<br />
+<!-- 父子组件传值 -->
+<button bindtap="runChildFn">父组件执行子组件方法</button>
+<button bindtap="runChildFn2">父组件获取子组件的数据</button>

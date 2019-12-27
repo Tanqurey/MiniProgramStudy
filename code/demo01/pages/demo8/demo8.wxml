@@ -1,0 +1,12 @@
+<!--讲解内容组件-->
+<icon type="success" size="60" color="green"></icon>
+<view>我相当于div</view>
+<text>我相当于span</text>
+<text decode="true" space="true">1&nbsp;&nbsp;&nbsp;2s</text>
+<!-- 富文本解析 -->
+<rich-text nodes="{{nodes}}" bindtap="tap"></rich-text>
+<rich-text nodes="{{articles}}"></rich-text>
+<progress percent="20" show-info />
+<progress percent="40" stroke-width="12" />
+<progress percent="60" color="pink" />
+<progress percent="80" active />

@@ -1,0 +1,25 @@
+<!--pages/news/news.wxml-->
+<!-- 使用view标签进行页面布局，即div text相当于span -->
+<view class="container">
+  <text class="topic">新闻页面</text>
+  <text>{{msg}}</text>
+  <!-- 条件判断 -->
+  <text wx:if='{{flag}}'>{{obj.name}}</text>
+  <!-- 绑定数据 -->
+  <view>
+    <!-- 绑定一个属性 -->
+    <text data-aid='{{aid}}'></text>
+  </view>
+  <!-- 循环 -->
+  <view class="list">
+    <view wx:for='{{list}}' wx:key='index'>
+      {{item}}---{{index}}
+    </view>
+  </view>
+  <!-- 修改元素及下标的变量名 -->
+  <view>
+    <view wx:for='{{list}}'  wx:key='idx' wx:for-index='idx' wx:for-item='num'>
+      {{num}}---{{idx}}
+    </view>
+  </view>
+</view>

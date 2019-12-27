@@ -1,0 +1,8 @@
+<!--测试wxs-->
+<wxs src="../../wxs/tools.wxs" module="tools" />
+<wxs src="../../wxs/utils.wxs" module="utils" />
+
+<view> {{tools.msg}} </view>
+<view> {{tools.bar(tools.foo)}} </view>
+<view> {{utils.formatDate(d)}} </view>
+

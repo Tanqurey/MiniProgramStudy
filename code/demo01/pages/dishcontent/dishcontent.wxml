@@ -1,0 +1,16 @@
+<!--pages/dishcontent/dishcontent.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<!-- 这里data中article为bindName -->
+<view class="p_img">
+  <image src='{{rurl}}{{dishData.img_url}}'></image>
+</view>
+
+<view class="h2">
+{{dishData.title}}
+</view>
+
+<view class="content">
+
+<template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+
+</view>

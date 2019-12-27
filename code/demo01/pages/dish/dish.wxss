@@ -1,0 +1,34 @@
+/* pages/dish/dish.wxss */
+
+.content {
+  background: #f7f7f7;
+}
+
+.h2 {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list .item {
+  width: 33.3%;
+  height: 240rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+
+.list .item text {
+  font-size: 32rpx;
+  color: #666;
+}
+
+.list .item image {
+  width: 90%;
+  margin: 0 auto;
+  height: 160rpx;
+}

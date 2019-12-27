@@ -1,0 +1,6 @@
+var formatDate = function(d) {
+  return getDate(d)
+}
+module.exports = {
+  formatDate: formatDate
+};

@@ -1,0 +1,12 @@
+<!--pages/dish/dish.wxml-->
+<view class="content">
+  <view class="wrap" wx:for="{{list}}" wx:for-item='item'>
+    <view class="h2">{{item.title}}</view>
+    <view class="list">
+      <view class="item" wx:for="{{item.list}}" wx:for-item="dish" bindtap="goContent" data-id="{{dish._id}}">
+        <image src="{{host}}{{dish.img_url}}"></image>
+        <text>{{dish.title}}</text>
+      </view>
+    </view>
+  </view>
+</view>

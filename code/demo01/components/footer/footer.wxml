@@ -1,0 +1,12 @@
+<!--components/footer/footer.wxml-->
+<view>
+  底部组件
+</view>
+
+<slot></slot>
+
+<view>
+  底部组件
+</view>
+
+<button bindtap="runFather">子组件触发父组件的方法</button>

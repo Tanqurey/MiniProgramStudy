@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/demo12/demo12",
+    "pages/demo11/demo11",
+    "pages/demo10/demo10",
+    "pages/demo9/demo9",
+    "pages/demo8/demo8",
+    "pages/demo7/demo7",
+    "pages/demo6/demo6",
+    "pages/demo5/demo5",
+    "pages/dish/dish",
+    "pages/dishcontent/dishcontent",
+    "pages/demo2/demo2",
+    "pages/news/news",
+    "pages/demo3/demo3",
+    "pages/demo3content/demo3content",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#f00",
+    "selectedColor": "0f0",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/demo2/demo2",
+        "text": "demo2界面"
+      },
+      {
+        "pagePath": "pages/demo3/demo3",
+        "text": "demo3"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,10 @@
+<!--实现一个上拉页面加载更多-->
+<view class="list">
+
+</view>
+
+<scroll-view scroll-y="true" style="height: {{widowHeight}}px;" bindscrolltolower="loadMore">
+  <view class="item" wx:for="{{list}}">
+    {{item.title}}
+  </view>
+</scroll-view>

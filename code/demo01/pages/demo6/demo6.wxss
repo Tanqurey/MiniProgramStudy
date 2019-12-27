@@ -1,0 +1,12 @@
+/* pages/demo6/demo6.wxss */
+
+.list {
+  padding: 10rpx;
+}
+
+.item {
+  line-height: 88rpx;
+  height: 88rpx;
+  overflow: hidden;
+  border-bottom: 1rpx solid #f00;
+}
